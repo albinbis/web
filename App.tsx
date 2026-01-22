@@ -140,7 +140,7 @@ const App: React.FC = () => {
                 <MatchCard 
                   key={match.id} 
                   match={match} 
-                  onSelect={(m) => setCurrentMatch(m)} 
+                  onSelect={(m: APIMatch) => setCurrentMatch(m)} 
                 />
               ))}
             </div>
